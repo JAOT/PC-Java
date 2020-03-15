@@ -1,8 +1,8 @@
-package exemploLE;
+package ExemploCaixasDialogo;
 
 import javax.swing.JOptionPane;
 
-public class exemploLE
+public class ExemploCaixasDialogo
 {
     public static void main(String[] args)
     {
