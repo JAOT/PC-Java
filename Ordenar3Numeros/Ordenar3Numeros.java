@@ -20,7 +20,7 @@ public class Ordenar3Numeros
             int v1 = sc.nextInt();
             out.println("Insere o segundo valor inteiro: ");
             int v2 = sc.nextInt();
-            out.println("Insere o segundo valor inteiro: ");
+            out.println("Insere o terceiro valor inteiro: ");
             int v3 = sc.nextInt();
     
             int maior = v1 > v2 ? v1 : v2;
