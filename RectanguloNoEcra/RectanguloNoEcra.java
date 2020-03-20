@@ -48,5 +48,6 @@ public class RectanguloNoEcra
             }
             out.println(linha);
         }
+        scanner.close();
     }    
 }
