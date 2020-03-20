@@ -25,9 +25,9 @@ public class Equacao2Grau
             out.println("Insere o termo independente: ");
             int c = scanner.nextInt();
 
-            int bmenos = b * -1;
-            int bquad = b * b;
-            int quatroac = (4 * a * c);
+            float bmenos = b * -1;
+            float bquad = b * b;
+            float quatroac = (4 * a * c);
             float disc = bquad - quatroac;
 
             if (disc >= 0)
