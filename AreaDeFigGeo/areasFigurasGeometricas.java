@@ -11,7 +11,7 @@ public class areasFigurasGeometricas
         PrintStream out = System.out;
         InputStream in = System.in;
         Scanner scanner = new Scanner(in);
-        double area;      
+
         int opcao = 4;
         do
         {
@@ -25,28 +25,15 @@ public class areasFigurasGeometricas
             switch (opcao) 
             {
                 case 1:
-                    out.println("Qual o raio do círculo?");
-                    double raio = scanner.nextDouble();
-                    area = Math.PI * Math.pow( raio, 2);
-                    out.printf("A área do círculo é: %.2f", area);
-                    out.println("");
+                out.printf("A área do círculo é: %.2f", Circulo(out, scanner));
+                out.println("");
                 break;
                 case 2:
-                    out.println("Qual o tamanho do lado 1?");
-                    double lado1 = scanner.nextDouble();
-                    out.println("Qual o tamanho do lado 2?");
-                    double lado2 = scanner.nextDouble();
-                    double aRec = lado1 * lado2;
-                    out.printf("A área do rectângulo é: %.2f", aRec);
+                    out.printf("A área do rectângulo é: %.2f", Rectangulo(out, scanner));
                     out.println("");
                 break;
                 case 3:
-                    out.println("Qual a altura?");
-                    double altTri = scanner.nextDouble();
-                    out.println("Qual o tamanho da base?");
-                    double basTri = scanner.nextDouble();
-                    double aTri = (altTri * basTri)/2;
-                    out.printf("A área do rectângulo é: %.2f", aTri);                 
+                    out.printf("A área do rectângulo é: %.2f", Triangulo(out, scanner));                 
                     out.println("");
                 break;           
                 default:
@@ -56,7 +43,31 @@ public class areasFigurasGeometricas
         }  while (opcao!=0);
 
         scanner.close();
-            
+    }
+
+    private static double Triangulo(PrintStream out, Scanner scanner)
+    {
+        out.println("Qual a altura?");
+        double altTri = scanner.nextDouble();
+        out.println("Qual o tamanho da base?");
+        double basTri = scanner.nextDouble();
+        return (altTri * basTri)/2;
+    }
+
+    private static double Rectangulo(PrintStream out, Scanner scanner)
+    {
+        out.println("Qual o tamanho do lado 1?");
+        double lado1 = scanner.nextDouble();
+        out.println("Qual o tamanho do lado 2?");
+        double lado2 = scanner.nextDouble();
+        return lado1 * lado2;
+    }
+
+    private static double Circulo(PrintStream out, Scanner scanner)
+    {
+        out.println("Qual o raio do círculo?");
+        double raio = scanner.nextDouble();
+        return Math.PI * Math.pow( raio, 2);
 
     }
 }

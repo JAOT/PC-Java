@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-areasFigurasGeometricas<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "AreaDeFigGeo.areasFigurasGeometricas",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-APC<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "AreaPerimetroCicunferencia.APC",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-calculo<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "CalculoAritmetico.calculo",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-comparar3numeros<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "Comparar3Numeros.comparar3numeros",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompararNotaTernario<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "CompararNotaTernario.CompararNotaTernario",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompararNumeros<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "CompararNumeros.CompararNumeros",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ContadorDeNumeros<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "ContarNumeros.ContadorDeNumeros",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DecomporNumero<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "DecomporUmNumeroInteiro.DecomporNumero",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DescontadorDeProdutos<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "DescontadorDeProdutos.DescontadorDeProdutos",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Equacao2Grau<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "Equacao2Grau.Equacao2Grau",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-estacoesDoAno<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "EstacaoDoAno.estacoesDoAno",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExemploCaixasDialogo<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "ExemploCaixasDialogo.ExemploCaixasDialogo",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExerciciosFicha1603<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "ExerciciosFicha1603.ExerciciosFicha1603",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IdentificarEstacao<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "IdentificarEstacao.IdentificarEstacao",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-incrementoeDecremento<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "IncrementoeDecremento.incrementoeDecremento",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CicloWhile<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "LerNumeroELerOsAlgarismos.CicloWhile",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-media<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "Media.media",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ordenar3Numeros<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "Ordenar3Numeros.Ordenar3Numeros",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PiramideNumerica<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "PiramideNumerica.PiramideNumerica",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-printDezVezes<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "Print10X.printDezVezes",
+            "projectName": "PC-Java_7ca00c70"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RectanguloNoEcra<PC-Java_7ca00c70>",
+            "request": "launch",
+            "mainClass": "RectanguloNoEcra.RectanguloNoEcra",
+            "projectName": "PC-Java_7ca00c70"
+        }
+    ]
+}
