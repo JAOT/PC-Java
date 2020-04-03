@@ -13,13 +13,11 @@ public class Exercicio1
         Scanner scanner = new Scanner(in);
 
         int []valores=new int[10];
-        int contador=0;
         
-        for (int i : valores)
+        for (int i =0; i < valores.length; i++)
         {
-            out.println("Insere um valor para o indice nº "+ contador);
-            valores[contador] = scanner.nextInt();
-            contador++;
+            out.println("Insere um valor para o indice nº "+ i);
+            valores[i] = scanner.nextInt();
         }
 
         int soma=0;
