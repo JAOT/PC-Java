@@ -283,7 +283,7 @@ public class Exercicios
         //Apresentar os valores sem repetições
         for (int i = 0; i < novoVector.length; i++)
         {
-            out.println(novoVector[i]);  
+            out.println(i + ": " + novoVector[i]);  
         }
         
     }
