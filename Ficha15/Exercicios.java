@@ -15,14 +15,49 @@ public class Exercicios
     
     public static void main(String[] args)
     {
-      //Exercicio1();
-      //Exercicio2();
-      //Exercicio3();
-      //Exercicio4();
-      //Exercicio5();
-      //Exercicio6();
-      //Exercicio7();
-      Exercicio8();
+      int opcao =9;
+      do
+      {
+          out.println("Escolher o exercício a apresentar:");
+          out.println("1 - Média de temperaturas");
+          out.println("2 - Maior nota");
+          out.println("3 - Mostrar números pares");
+          out.println("4 - Soma de vectores");
+          out.println("5 - Menor valor num vector");
+          out.println("6 - Inverter ordem de vector");
+          out.println("7 - Ordenar vector por ordem crescente");
+          out.println("8 - Retirar elementos duplicados de um vector");
+          out.println("0 - Sair");
+          opcao = scanner.nextInt();
+          switch (opcao) {
+            case 1:
+                Exercicio1();
+                break;
+            case 2:
+                Exercicio2();
+                break;
+            case 3:
+                Exercicio3();
+                break;
+            case 4:
+                Exercicio4();
+                break;
+            case 5:
+                Exercicio5();
+                break;
+            case 6:
+                Exercicio6();
+                break;
+            case 7:
+                Exercicio7();
+                break;          
+            case 8:
+                Exercicio8();
+                break; 
+          }
+          
+      } while (opcao!=0);
+      out.println("Até breve!");
     }   
     public static void Exercicio1()
     {
