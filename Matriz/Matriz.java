@@ -9,8 +9,8 @@ import java.util.Scanner;
  */
 public class Matriz
 {
-    static int m = 3;
-    static int n = 3;
+    static int coluna = 2;
+    static int linha = 5;
     
     static PrintStream out = System.out;
     static InputStream in = System.in;
@@ -19,11 +19,11 @@ public class Matriz
     public static void main(String[] args)
     {
 
-        int [][] inteiros = new int[m][n];
+        int [][] inteiros = new int[coluna][linha];
 
-        for (int i = 0; i < m; i++)
+        for (int i = 0; i < coluna; i++)
         {
-            for (int j = 0; j < n; j++)
+            for (int j = 0; j < linha; j++)
             {
                 out.println("Valor da coluna "+ i + " e linha "+j);
                 inteiros[i][j] = scanner.nextInt();
@@ -33,9 +33,9 @@ public class Matriz
         int maior = inteiros[0][0];
         int menor = inteiros[0][0];
 
-        for (int i = 0; i < m; i++) 
+        for (int i = 0; i < coluna; i++) 
         {
-            for (int j = 0; j < n; j++)
+            for (int j = 0; j < linha; j++)
             {
                 if (inteiros[i][j]> maior)
                 {
@@ -54,11 +54,10 @@ public class Matriz
     }
     public static void SomarColunas(int[][] inteiros)
     {
-
-        for (int i = 0; i < m; i++) 
+        for (int i = 0; i < coluna; i++) 
         {
             int soma =0;
-            for (int j = 0; j < n; j++)
+            for (int j = 0; j < linha; j++)
             {
                 soma+=inteiros[i][j];
             }
